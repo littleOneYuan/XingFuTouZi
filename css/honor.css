@@ -1,0 +1,145 @@
+/*honor*/
+
+.honor {
+	height: 616px;
+	width: 1920px;
+}
+
+.honor>img {
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+}
+
+.honor .company {
+	width: 1920px;
+	font-size: 45px;
+	text-align: center;
+	font-family: impact;
+	top: 30px;
+	position: relative;
+}
+
+.honor .company span:first-child {
+	color: #fff;
+}
+
+.honor .company span:last-child {
+	color: #f2b03f;
+}
+
+.honor .line {
+	width: 382px;
+	margin: 0 auto;
+	text-align: center;
+	top: 30px;
+	position: relative;
+	height: 20px;
+	line-height: 20px;
+}
+
+.honor .line .divLine {
+	width: 382px;
+	height: 1px;
+	background-color: #92c3e0;
+	position: relative;
+	top: 10px;
+	z-index: 0;
+}
+
+.honor .line .divText {
+	margin: 0 auto;
+	z-index: 2;
+	width: 110px;
+	background-color: #0273b7;
+	position: relative;
+}
+
+.honor .line .divText span {
+	color: #fff;
+	font-size: 16px;
+}
+
+.honor .line .divDot {
+	width: 110px;
+	position: relative;
+	margin: 0 auto;
+	top: -13px;
+	z-index: 3;
+	display: flex;
+	justify-content: space-between;
+}
+
+.honor .line .divDot .dot {
+	width: 5px;
+	height: 5px;
+	border-radius: 5px;
+	background-color: #92c3e0;
+}
+
+.honor .textLine {
+	width: 306px;
+	height: 36px;
+	line-height: 36px;
+	margin: 0 auto;
+	position: relative;
+	top: 35px;
+	color: #fff;
+	font-size: 20px;
+	font-family: "微软雅黑";
+	display: flex;
+	justify-content: space-between;
+}
+
+.honor .Engl {
+	width: 1920px;
+	margin: 0 auto;
+	top: 35px;
+	position: relative;
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+	text-align: center;
+	color: #fff;
+	font-family: "微软雅黑";
+}
+
+.honor .imgDiv {
+	width: 1200px;
+	margin: 0 auto;
+	top: 35px;
+	position: relative;
+	padding-top: 5px;
+}
+
+.honor .imgDiv div {
+	display: flex;
+	width: 1200px;
+	padding: 10px 0px;
+	justify-content: space-between;
+}
+
+.honor .imgDiv div img {
+}
+
+.honor .button {
+	width: 86px;
+	height: 24px;
+	margin: 0 auto;
+	position: relative;
+	top: 56px;
+	background-color: #e9f7ff;
+	border-radius: 20px;
+	cursor: pointer;
+	color: #313131;
+	text-align: center;
+	font-size: 12px;
+	font-family: arial;
+	line-height: 24px;
+}
+
+.honor .button:hover {
+	box-shadow: 2px 4px 4px 0px #063d5d;
+	color: #060606;
+	background-color: #fff;
+}

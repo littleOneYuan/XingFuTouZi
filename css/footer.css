@@ -1,0 +1,182 @@
+/*footer*/
+
+footer {
+	height: 326px;
+	width: 1920px;
+	background-color: #30333a;
+	display: flex;
+	flex-direction: column;
+}
+
+footer .formDIv {
+	height: 66%;
+	width: 1200px;
+	position: relative;
+	margin: 0 auto;
+	background-color: #30333a;
+	display: flex;
+}
+
+footer .formDIv .code {
+	position: relative;
+	top: 36px;
+	width: 180px;
+	height: 142px;
+	background-color: #30333a;
+	left: 80px;
+}
+
+footer .formDIv .code div span {
+	font-size: 14px;
+	color: #fff;
+}
+
+footer .formDIv .code div:first-child img {
+	margin-right: 6px;
+}
+
+footer .formDIv .code div:last-child {
+	margin-top: 10px;
+}
+
+
+/*-------------------*/
+
+footer .formDIv .formBox {
+	position: relative;
+	top: 42px;
+	width: 578px;
+	height: 142px;
+	background-color: #30333a;
+	font-size: 14px;
+	color: #fff;
+	left: 80px;
+}
+
+footer .formDIv .formBox>img {
+	margin-right: 6px;
+}
+
+footer .formDIv .formBox .messages {
+	display: flex;
+	width: 100%;
+	height: 100%;
+}
+
+footer .formDIv .formBox .messages .messLeft .messlist>input,
+.messlist>textarea {
+	background-color: #1d2026;
+	border: 1px solid #3b3b43;
+	color: #6d6d6d;
+	font-size: 12px;
+	padding-left: 14px;
+}
+
+footer .formDIv .formBox .messages .messLeft .messlist>input:focus,
+.messlist>textarea:focus {
+	border: 1px solid #3baff7;
+	border-radius: 2px;
+}
+
+footer .formDIv .formBox .messages .messLeft .messlist>input {
+	width: 152px;
+	height: 32px;
+	margin-bottom: 2px;
+	margin-right: 2px;
+}
+
+footer .formDIv .formBox .messages .messLeft .messlist:first-child>input,
+.messlist>textarea,
+.messsub>input {
+	margin-top: 12px;
+}
+
+footer .formDIv .formBox .messages .messlist>textarea {
+	width: 286px;
+	height: 90px;
+	margin-right: 2px;
+	padding-top: 14px;
+}
+
+footer .formDIv .formBox .messages .messsub>input {
+	width: 33px;
+	height: 106px;
+	background-color: #3baff7;
+	border: 1px solid #78c8f9;
+	color: #fff;
+	font-size: 12px;
+	white-space: normal;
+	text-align: left;
+	padding: 10px;
+}
+
+footer .formDIv .formBox .messages .messsub>input:hover {
+	cursor: pointer;
+	background-color: #4fb9fb;
+	font-size: 13px;
+}
+
+
+/*---------------------------*/
+
+footer .formDIv .contect {
+	position: relative;
+	top: 37px;
+	width: 462px;
+	height: 142px;
+	background-color: #30333a;
+	font-size: 14px;
+	color: #fff;
+	left: 80px;
+}
+
+footer .formDIv .contect>img {
+	margin-right: 6px;
+}
+
+footer .formDIv .contect>div {
+	position: relative;
+	top: 5px;
+}
+
+footer .formDIv .contect div {
+	font-size: 12px;
+	line-height: 24px;
+	font-family: "微软雅黑";
+}
+
+
+/*-------------------*/
+
+footer .copyRight {
+	position: relative;
+	flex: 1;
+	width: 1920px;
+	background-color: #30333a;
+}
+
+footer .copyRight .hr {
+	width: 1920px;
+	border-top: 1px dashed #262a30;
+}
+
+footer .copyRight .copyText {
+	position: relative;
+	top: 18px;
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #fff;
+	width: 1920px;
+	text-align: center;
+}
+
+footer .copyRight .copyText img {
+	display: inline-block;
+}
+
+footer .copyRight .copyImg {
+	width: 1920px;
+	text-align: center;
+	top: 38px;
+	position: relative;
+}

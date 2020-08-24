@@ -1,0 +1,142 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul,
+li {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.container {
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+
+/*导航*/
+
+nav {
+	width: 1920px;
+	height: 92px;
+	line-height: 92px;
+	background-color: #023d77;
+}
+
+nav .navBox {
+	width: 62.5%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+nav .navBox .navText span {
+	color: #fff;
+	font-size: 16px;
+	margin-right: 30px;
+	font-family: "微软雅黑";
+}
+
+nav .navBox .navText span:last-child {
+	margin-right: 0px;
+}
+
+nav .navBox .navText span:hover {
+	color: #7fb9ff;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+nav .navBox .navImg img {
+	transform: translateY(25%);
+}
+
+
+/*banner*/
+
+.banner {
+	width: 1920px;
+	height: 519px;
+}
+
+.banner>span {
+	font-weight: bold;
+	font-size: 105px;
+	color: #45144b;
+	font-family: "微软雅黑";
+	letter-spacing: 4px;
+	position: relative;
+	z-index: 3;
+	bottom: 433px;
+	left: 440px;
+}
+
+.container .banner>span:nth-child(3){
+	left: 706px;
+}
+
+.banner .banText {
+	background-color: #ffffff;
+	position: absolute;
+	z-index: 1;
+	top: 228px;
+	left: 162px;
+	/* white-space: nowrap; */
+	opacity: 0.8;
+}
+
+.banner .banText1 {
+	position: absolute;
+	top: 228px;
+	left: 162px;
+	width: 990px;
+	height: 90px;
+	font-size: 54px;
+	line-height: 90px;
+	color: #45144b;
+	font-family: "微软雅黑";
+	letter-spacing: 4px;
+	z-index: 3;
+}
+
+.banner .banText1 span {
+	position: relative;
+	top: -10px;
+	top: -24px;
+	left: 24px;
+}
+
+.banner .banText1 span:nth-child(even) {
+	background-image: linear-gradient(#fef101, #cd8308, #1c0d02);
+	font-weight: bold;
+	-webkit-background-clip: text;
+	color: transparent;
+	/*box-shadow: 2px 2px 2px #3f2103;*/
+	font-size: 105px
+}
+
+.banner .banText2 {
+	width: 990px;
+	height: 90px;
+	z-index: 1;
+}
+
+.banner .banText3 {
+	width: 440px;
+	height: 110px;
+	top: 324px;
+}
+
+.banner .banText3 span {
+	display: block;
+	line-height: 30px;
+	font-size: 20px;
+	position: relative;
+	left: 24px;
+	top: 10px;
+}
